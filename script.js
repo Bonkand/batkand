@@ -52,4 +52,24 @@ window.onload = function() {
         titleElement.textContent = ` ${emoji}`;
   
     document.getElementById("description idk").innerText = texts[randomIndex];
+
+
+// Assuming you're using Node.js and Express.js
+
+const express = require('express');
+const app = express();
+
+app.use((req, res, next) => {
+  // Check if the user's language is English
+  if (req.headers['accept-language'].includes('en')) {
+    // Redirect to the English version of the website
+    res.redirect('en');
+  } else {
+    // Proceed to the default language or other logic
+    next();
+  }
+});
+
+});
+
 };
