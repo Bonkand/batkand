@@ -1,0 +1,128 @@
+
+<html>
+<head>
+ <meta charset="UTF-8">           
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="just visit the site and find out u dumbass" color="#CEB4A0" author="click the link NOW">
+  <title>Batkand!</title>
+  <link href="static/css/custom.css" type="text/css" rel="stylesheet">
+  <link href="static/css/modesta.css" type="text/css" rel="stylesheet">
+  <link href="static/css/emojis.css" type="text/css" rel="stylesheet">
+  <link rel="icon" type = "image/x-icon" href="https://em-content.zobj.net/source/samsung/395/head-shaking-vertically_1f642-200d-2195-fe0f.png">
+  <script src="blinkingstars.js"></script>
+<link rel="stylesheet" type="text/css" href="blinkingstars.css">
+</head>
+
+  <style>/* Keyframes for gradient animation */
+    @keyframes gradientAnimation {
+        0% {
+            background-position: 200% 50%; /* Start at the end of the gradient */
+        }
+        100% {
+            background-position: 0% 50%; /* Move to the beginning of the gradient */
+        }
+    }
+
+    .gradient {
+        background: linear-gradient(to right, dimgray, white, dimgray);
+        background-size: 200% 100%; /* Adjust size to match the new keyframes */
+        color: transparent;
+        background-clip: text;
+        display: inline-block;
+        animation: gradientAnimation 2.5s linear infinite; /* Apply animation with linear timing */
+    }
+         .title-container {
+        display: flex; /* Use flexbox to align items */
+        align-items: center; /* Center items vertically */
+    }
+   
+   
+ </style>
+
+<body class="dark-theme github">
+  <div id="blinkingstars"></div>
+  <div class="fullscreen">
+    <div class="background" style="background-image: url('/static/images/background.jpg');" id="background-image">
+    </div>
+    <script>
+      var currentMonth = new Date().getMonth();
+var currentDate = new Date().getDate();
+
+if ((currentMonth === 9 && currentDate >= 31) || (currentMonth === 10 && currentDate <= 31)) {
+    document.getElementById("background-image").src = "/static/images/halloween-background.jpg";
+} else if ((currentMonth === 11 && currentDate >= 8) || (currentMonth === 12 && currentDate <= 31) || (currentMonth === 0 && currentDate <= 2)) {
+    document.getElementById("background-image").src = "/static/images/christmas-background.jpg";
+} else if ((currentMonth === 3 && currentDate >= 20) || (currentMonth === 4 && currentDate <= 20)) {
+    document.getElementById("background-image").src = "/static/images/easter-background.jpg";
+} else if (currentMonth === 10 && currentDate === 23) {
+    document.getElementById("background-image").src = "/static/images/bday-background.jpg";
+} else {
+    document.getElementById("background-image").src = "/static/images/background.jpg";
+}
+    </script>
+    <div class="center-object">
+      <div class="container">
+        <section class="me unset">
+          <div class="avatar-container">
+            <img draggable="false" class="image-title primary-bg" src="/static/images/avatar.png" id="discord-avatar">
+          </div>
+         
+         <div class="unset">
+          <div class="title-container">
+    <h1 class="title gradient">Batkand</h1><h1 class="title2"></h1>
+           </div>
+    <script src="script.js"></script>
+  </div>
+        </section>
+        <div class="buttons">
+         
+          <a href="mailto:me@bonky.fun" class="btn emerald-dropshadow white-text animation hover"
+            target="_blank">Mandaci un Email</a>
+          <a href="invite" class="btn github-dropshadow white-text animation hover"
+            target="_blank">Invitami</a>
+          <a href="https://reddit.com/u/alexand_0006" class="btn discord-dropshadow white-text animation hover"
+            target="_blank">Server Discord</a>
+         <a href="https://bonky.fun" class="btn browny-dropshadow white-text animation hover">sito di Bonk</a>
+                   
+        </div>
+      </div>
+    </div>
+
+    <a href="#information">
+      <div id="arrow" class="arrow bounce">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 481.32 291.98" class="white-fill">
+          <path
+            d="M466.5,15.5L466,15c-19.8-19.8-52-19.8-71.9,0L240.8,168.3L87.2,14.8C67.4-5,35.2-5,15.4,14.8l-0.5,0.5 C-5,35.2-5,67.4,14.8,87.2l186.6,186.6c0.9,1,1.8,2,2.7,3v0c3.8,3.8,8.1,6.9,12.7,9.3c17,9,38.1,7.7,53.9-3.9 c2.2-1.6,4.4-3.4,6.4-5.4L466.5,87.4C486.4,67.6,486.4,35.4,466.5,15.5z" />
+        </svg>
+      </div>
+    </a>
+  </div>
+
+  <section class="container" id="information">
+
+    <div class="box-container">
+      <h1 class="title lemon-text">Me:</h1>
+      <div class="info-container">
+       <br>
+        <p> <img src="https://files.catbox.moe/aj3d8j.png" alt="Batkand pfp" height = "25" width ="25">
+          Batkand! un bot di <a href = "https://discord.com/users/664103194162495488"><span class="blurple-text">Discord</span></a> <span class="green-text">Ita</span>a<span class="youtube-text">li</span>ano fatto da <a href = "https://bonky.fun"><span class="bonky-text">Bonkand</span></a>.<br>
+         Ho molti comandi fatti per aiutare le persone nel massimizzare il loro tempo!
+        </p>
+      </div>
+    </div>
+
+    <div class="box-container">
+      <h1 class="title green-sea-text"> Aggiornamenti bot:</h1>
+      <div class="info-container">
+        <p> Ancora nulla da vedere qua! </p>
+      </div>
+    </div>
+    <hr>
+  </section>
+  <footer>
+  <p>Fatto con 💖 da Bonkand</p>
+    <footer>
+      
+</body>
+
+    </html>
